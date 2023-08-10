@@ -7,6 +7,7 @@
 		"args": { "VARIANT": "bullseye" }
 	},
   "features": {"docker-in-docker": "latest",
+	  "sshd": "latest",
     "lando/lando-dev-container-feature/landodevcontainer": "latest",
   }
 }
