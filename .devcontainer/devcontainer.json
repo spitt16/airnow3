@@ -1,5 +1,11 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "name": "Debian",
+	"build": {
+		"dockerfile": "Dockerfile",
+		// Update 'VARIANT' to pick an Debian version: bullseye, buster, stretch
+		// Use bullseye or stretch on local arm64/Apple Silicon.
+		"args": { "VARIANT": "bullseye" }
+	},
   "features": {"docker-in-docker": "latest",
     "lando/lando-dev-container-feature/landodevcontainer": "latest",
   }
