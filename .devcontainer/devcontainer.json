@@ -6,8 +6,7 @@
 		// Use bullseye or stretch on local arm64/Apple Silicon.
 		"args": { "VARIANT": "bullseye" }
 	},
-  "forwardPorts": [80],
+  
   "features": {"docker-in-docker": "latest",
-    "lando/lando-dev-container-feature/landodevcontainer": "latest",
   },
 }
